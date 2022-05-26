@@ -3,7 +3,7 @@
 class card extends User{
 
     // variables
-    public $nomeCarta;
+    public  $nomeCarta;
     public  $cognomeCarta;
     public  $numeroCarta;
     public  $cvv;
@@ -45,4 +45,5 @@ class card extends User{
     }
 
 }
+var_dump(getCardCvv());
 ?>

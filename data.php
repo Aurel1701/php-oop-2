@@ -1,7 +1,7 @@
 <?php
-include __DIR__ . "/../infoShop/Carta.php";
-include __DIR__ . "/../infoShop/Products.php";
-include __DIR__ . "/../infoShop/User.php";
+include __DIR__ . "/infoShop/Carta.php";
+include __DIR__ . "/infoShop/Products.php";
+include __DIR__ . "/infoShop/User.php";
 
 
 $prodotto = new Products("croccantini", "lorem", "Gucci", "Valentino", 30);
@@ -14,7 +14,7 @@ $utente = new User("Stefano", "Pioli", "09-12-80", "Roma", false);
 
 
 var_dump($prodotto);
-var_dump($utente);
+var_dump($utente->getInfoUser());
 ?>
 
 
