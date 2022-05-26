@@ -20,7 +20,7 @@ class Products {
     }
     function getSconto()
     {
-        if ($this->registrato) 
+        if ($this->registrato = true) 
         {
             return 20;
         }
@@ -29,5 +29,5 @@ class Products {
         }
     }
 }
-
+var_dump(getInfoUser());
 ?>

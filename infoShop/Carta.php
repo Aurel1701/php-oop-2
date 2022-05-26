@@ -3,11 +3,11 @@
 class card extends User{
 
     // variables
-    private $nomeCarta;
-    private $cognomeCarta;
-    private $numeroCarta;
-    private $cvv;
-    private $scadenzaCarta;
+    public $nomeCarta;
+    public  $cognomeCarta;
+    public  $numeroCarta;
+    public  $cvv;
+    public  $scadenzaCarta;
     // / variables
 
     // construct
