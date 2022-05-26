@@ -31,5 +31,4 @@ class Products {
        return $this->ciotola;
    }
 }
-
 ?>
