@@ -5,7 +5,7 @@ class Products {
    protected $cognome;
    protected $data;
    protected $citta;
-   protected $resgistrato;
+   protected $resgistrato = false;
 
    function __construct( String $nome,String $cognome,String $data,String $città,String $resgistrato){
        $this->nome = $nome;
@@ -16,7 +16,7 @@ class Products {
    }
    public function getInfoUser()
     {
-        return $this-> nome . " " . $this-> cognome . " " . $this-> data . " " . $this->citta . " " . $this->registrato;
+        return $this->nome . " " . $this->cognome . " " . $this-> data . " " . $this->citta . " " . $this->registrato;
     }
     function getSconto()
     {

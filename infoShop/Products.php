@@ -7,7 +7,7 @@ class Products {
    protected $ciotola;
    protected $prezzo;
 
-   function __construct( String $cibo,String $guinzaglio,String $cuccia,String $ciotola,String $prezzo){
+   function __construct( String $cibo,String $guinzaglio,String $cuccia,String $ciotola,int $prezzo){
        $this->cibo = $cibo;
        $this->guinzaglio = $guinzaglio;
        $this->cuccia = $cuccia;
